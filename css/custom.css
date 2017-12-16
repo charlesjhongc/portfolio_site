@@ -18,6 +18,10 @@
   width: 80px;
 }
 
+.mainpic{
+  width: 100%;
+}
+
 .text_right{
   text-align: right;
 }
