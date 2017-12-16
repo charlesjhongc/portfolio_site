@@ -1,13 +1,21 @@
-#w1{
+.w1{
   background-color: HotPink;
 }
 
-#w2{
+.w2{
   background-color: LawnGreen;
 }
 
-#w3{
+.w3{
   background-color: Orange;
+}
+
+.logo{
+  width: 200px;
+}
+
+.project{
+  width: 80px;
 }
 
 .text_right{
