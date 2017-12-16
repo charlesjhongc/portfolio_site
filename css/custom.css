@@ -14,14 +14,15 @@
   width: 200px;
 }
 
-.project{
-  width: 80px;
-}
-
 .mainpic{
   width: 100%;
 }
 
 .text_right{
   text-align: right;
+}
+
+.project{
+  max-width: 128px;
+  align-self: center;
 }
