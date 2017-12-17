@@ -1,8 +1,9 @@
-/*comment*/
+/*Set global font*/
 body {
   font-family: 'Muli', sans-serif;
 }
 
+/*comment*/
 @media screen and (max-width: 575px) {
   body {
     color: orange;
@@ -21,6 +22,7 @@ body {
   }
 }
 
+/*comment*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
   body {
     color: red;
@@ -33,6 +35,7 @@ body {
   }
 }
 
+/*comment*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
     color: GoldenRod;
@@ -54,6 +57,7 @@ body {
   }
 }
 
+/*comment*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   body {
     color: blue;
@@ -75,6 +79,7 @@ body {
   }
 }
 
+/*comment*/
 @media screen and (min-width: 1200px) {
   body {
     color: green;
@@ -82,33 +87,18 @@ body {
 }
 
 /*comment*/
-#header_container {
-
-}
-
-/*comment*/
-#header_row {
-
-}
-
-/*comment*/
-#log_col {
-
-}
-
-/*comment*/
 #intro_col {
   align-self: center;
+}
+
+#tt {
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 /*comment*/
 .half_height{
   height: 50%;
-}
-
-/*comment*/
-.logo {
-  /*max-width: 200px;*/
 }
 
 /*comment*/
@@ -118,6 +108,7 @@ body {
 
 /*comment*/
 .projectpic {
+  /*padding: 10%;*/
   max-width: 128px;
   align-self: center;
 }
