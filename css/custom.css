@@ -1,11 +1,114 @@
 /*comment*/
-html {
-  font-size: 1rem;
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    color: orange;
+  }
+  #my_name {
+    font-size: 2rem;
+  }
+  #my_intro{
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    color: red;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  #my_name {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    color: GoldenRod;
+  }
+  #my_name {
+    font-size: 4.4rem;
+  }
+  #my_intro{
+    font-size: 2.2rem;
+  }
+  h1 {
+    font-size: 3.4rem;
+  }
+  h4 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 1.6;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    color: blue;
+  }
+  #my_name {
+    font-size: 5.9rem;
+  }
+  #my_intro{
+    font-size: 2.8rem;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+  h4 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 1.6;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    color: green;
+  }
+}
+
+/*comment*/
+#header_container {
+
+}
+
+/*comment*/
+#header_row {
+
+}
+
+/*comment*/
+#log_col {
+
+}
+
+/*comment*/
+#intro_col {
+  align-self: center;
+}
+
+/*comment*/
+.half_height{
+  height: 50%;
 }
 
 /*comment*/
 .logo {
-  max-width: 200px;
+  /*max-width: 200px;*/
 }
 
 /*comment*/

@@ -7,21 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   </head>
+
   <!--TODO-->
   <body>
     <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
+      <div class="container" id="header_container">
+        <div class="row" id="header_row">
+          <div class="col-4" id="log_col">
             <img class="img-fluid logo" src="img/logo.jpg" alt="LOGO">
           </div>
-          <div class="col-sm-8">
-            <br>
-            <h1 class="display-2 text-right">Chen Jhong</h1>
-            <br>
-            <br>
-            <h4 class="text-right">A Self-Motivated Web Developer</h4>
+          <div class="col-8" id="intro_col">
+            <h1 class="display-2 text-right half_height" id="my_name">CHEN JHONG</h1>
+            <h2 class="text-right half_height" id="my_intro">A Self-Motivated Web Developer</h2>
           </div>
         </div>
       </div>
@@ -32,7 +31,7 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-12">
             <img class="img-fluid mainpic" src="img/body.jpg" alt="Taipei 101">
           </div>
         </div>
@@ -42,17 +41,10 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-12">
             <h1>Featured Work</h1>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
+          <div class="col-6 col-sm-4">
             <div class="card">
               <img class="img-fluid card-img-top projectpic" src="img/remote_shell.png" alt="Project image">
               <div class="card-body">
@@ -62,7 +54,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-6 col-sm-4">
             <div class="card">
               <img class="img-fluid card-img-top projectpic" src="img/chatting_room.png" alt="Project image">
               <div class="card-body">
@@ -72,7 +64,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-6 col-sm-4">
             <div class="card">
               <img class="img-fluid card-img-top projectpic" src="img/man_in_the_middle.png" alt="Project image">
               <div class="card-body">
