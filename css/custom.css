@@ -3,7 +3,7 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-/*comment*/
+/*Font-size for xs device*/
 @media screen and (max-width: 575px) {
   body {
     color: orange;
@@ -22,7 +22,7 @@ body {
   }
 }
 
-/*comment*/
+/*Font-size for sm device*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
   body {
     color: red;
@@ -35,7 +35,7 @@ body {
   }
 }
 
-/*comment*/
+/*Font-size for md device*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
     color: GoldenRod;
@@ -57,7 +57,7 @@ body {
   }
 }
 
-/*comment*/
+/*Font-size for lg device*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   body {
     color: blue;
@@ -79,21 +79,16 @@ body {
   }
 }
 
-/*comment*/
+/*Font-size for xl device*/
 @media screen and (min-width: 1200px) {
   body {
     color: green;
   }
 }
 
-/*comment*/
+/*TODO*/
 #intro_col {
   align-self: center;
-}
-
-#tt {
-  padding-top: 1%;
-  padding-bottom: 1%;
 }
 
 /*comment*/
@@ -107,8 +102,14 @@ body {
 }
 
 /*comment*/
+.card_padding{
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+/*comment*/
 .projectpic {
-  /*padding: 10%;*/
+  /*padding: 5%;*/
   max-width: 128px;
   align-self: center;
 }
